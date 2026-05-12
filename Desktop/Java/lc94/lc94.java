@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-class Solution {
+class lc94 {
  public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         traverse(root, result);
@@ -15,7 +15,7 @@ class Solution {
         traverse(root.right, result);
     }
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        lc94 solution = new lc94();
         TreeNode root = new TreeNode(1);
         root.right = new TreeNode(2);
         root.right.left = new TreeNode(3);
